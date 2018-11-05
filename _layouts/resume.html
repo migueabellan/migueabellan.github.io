@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+<body class="theme-{% if site.resume_theme %}{{ site.resume_theme }}{% endif %}">
+
+  <div class="wrapper" itemscope itemtype="http://schema.org/Person">
+    <header class="page-header">
+      <img src="images/avatar.png" alt="{{ site.resume_name }}" class="avatar no-print" itemprop="image">
+      <h1 class="header-name" itemprop="name">{{ site.resume_name }}</h1>
+      <div class="header-contact-info">
+        <p>{{ site.resume_header_contact_info }}</p>
+      </div>
+      <div class="title-bar no-print">
+        <h2 class="header-title" itemprop="jobTitle">{{ site.resume_title }}</h2>
+        {% include icon-links.html %}
+      </div>
+      <div class="executive-summary" itemprop="description">
+        {{ site.resume_header_intro }}
+      </div>
+      <a href="mailto:{{ site.resume_contact_email }}" class="contact-button no-print" itemprop="email">Contacta</a>
+    </header>
+
+    <section class="content-section">
+      <header class="section-header">
+        <h2>Experiencia</h2>
+      </header>
+      {% for job in site.data.experience %}
+      <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+        <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
+        <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
+        <p class="resume-item-copy">{{ job.summary }}</p>
+      </div>
+      {% endfor %}
+    </section>
+
+    <section class="content-section">
+      <header class="section-header">
+        <h2>Educación</h2>
+      </header>
+      {% for education in site.data.education %}
+      <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
+        <h3 class="resume-item-title" itemprop="name">{{ education.uni }}</h3>
+        <h4 class="resume-item-details group" itemprop="description">{{ education.degree }} &bull; {{ education.year }}</h4>
+        <h5 class="resume-item-details award-title" itemprop="description">{{ education.award }}</h5>
+        <p class="resume-item-copy" itemprop="description">
+          <ul class="resume-item-list">
+            {% for award in education.awards %}
+            <li>{{ award.award }}</li>
+            {% endfor %}
+          </ul></h5>
+        <p class="resume-item-copy">{{ education.summary }}</p>
+      </div>
+      {% endfor %}
+    </section>
+
+    <section class="content-section">
+      <header class="section-header">
+        <h2>Proyectos</h2>
+      </header>
+      {% for project in site.data.projects %}
+      <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
+        <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
+        <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
+        <h4 class="resume-item-details" itemprop="description">{{ project.role }}  &bull; {{ project.duration }}</h4>
+        <p class="resume-item-copy">{{ project.description }}</p>
+      </div>
+      {% endfor %}
+    </section>
+
+    <section class="content-section">
+        <header class="section-header">
+          <h2>Premios</h2>
+        </header>
+        {% for association in site.data.awards %}
+        <div class="resume-item" itemscope itemprop="memberOf" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name">{% if association.url %}<a href="{{ association.url }}">{{ association.organization }}</a>{% else %}{{ association.organization }}{% endif %}</h3>
+          <h4 class="resume-item-details" itemprop="description">{{ association.role }} &bull; {{ association.year }}</h4>
+          <p class="resume-item-copy">{{ association.summary }}</p>
+        </div>
+        {% endfor %}
+    </section>
+
+    <footer class="page-footer">
+      <p class="footer-line">Made by <a href="https://github.com/jglovier/resume-template">jglovier</a>.
+    </footer>
+
+  </div>
+
+</body>
+</html>

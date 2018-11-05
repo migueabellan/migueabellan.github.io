@@ -1,0 +1,11 @@
+- project: Programo Ergo Sum
+  role: Cofundador
+  duration: 2015 &mdash; Actualidad
+  # url: https://www.programoergosum.com
+  description: Iniciativa sin ánimo de lucro que pretende acercar la programación de ordenadores, electrónica, robótica y nuevas tecnologías a todas las edades.
+
+- project: CoderDojo España
+  role: Presidente
+  duration: 2015 &mdash; Actualidad
+  # url: "http://www.coderdojo.es"
+  description: Agrupación informal de dojos o clubes gratuitos de programación activos en territorio español.
