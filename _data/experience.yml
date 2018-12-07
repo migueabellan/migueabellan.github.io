@@ -1,9 +1,14 @@
 - company: Desarrollador Web y Backend
   position: Freelance
   duration: Mayo, 2009 &mdash; Actualidad
-  summary: Desarrollador de aplicaciones web a medida. <ul class="resume-item-list"><li>Senior Backend, PHP7 Symfony</li><li>Junior Frontend, JS Vue.js</li><li>SysAdmin y cultura DevOps</li></ul>
+  summary: Desarrollador de aplicaciones web a medida. <ul class="resume-item-list"><li>Senior Backend, PHP7 Symfony</li><li>Junior Frontend, JS Vue.js</li><li>SysAdmin y DevOps</li></ul>
 
-- company: Mentor en Programación y Robótica
-  position: Programo Ergo Sum
-  duration: Abril, 2015  &mdash; Actualidad
-  summary: Formador de profesorado no universitario de la Consejería de Educación, Juventud y Deportes de centros educativos sostenidos con fondos públicos de la Región de Murcia.
+- company: Formador en Programación y Robótica
+  position: Centro de Profesorado y Recursos (CPR Murcia)
+  duration: Octubre, 2015 &mdash; Actualidad
+  summary: Formador de profesorado no universitario de la Consejería de Educación, Juventud y Deportes de centros educativos sostenidos con fondos públicos de la Región de Murcia.<ul class="resume-item-list"><li>Recursos Educativos mediante la programación de VideoJuegos</li><li>Programación y Robótica para la integración de alumnos con NEE</li><li>Gamificación y Programación con Raspberry Pi</li><li>Programación en Python con Raspberry Pi</li><li>Programación y Robótica en Secundaria</li><li>Programación y Robótica en Primaria</li><li>Jornadas sobre Programación y Robótica Educativa</li></ul>
+
+- company: Formador de Arduino
+  position: Arduino Education
+  duration: Curso 2018 / 2019
+  summary: Formador en Arduino Education para el programa educativo "Clases de Tecnologías Creativas (CTC)" a través del proyecto "Escuela del Pensamiento Computacional" del Ministerio de Educación y Formación Profesional INTEF.
