@@ -8,7 +8,7 @@
 Donwload using git
 
 ```sh
-$ https://github.com/migueabellan/migueabellan.github.io.git
+$ git clone https://github.com/migueabellan/migueabellan.github.io.git
 ```
 
 Build container
