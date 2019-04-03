@@ -1,19 +1,18 @@
-<section class="content-section">
-    <header class="section-header">
+<section class="section">
+    <header class="header">
       <h2>Educación</h2>
     </header>
     {% for education in site.data.education %}
-    <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
-      <h3 class="resume-item-title" itemprop="name">{{ education.uni }}</h3>
-      <h4 class="resume-item-details group" itemprop="description">{{ education.degree }} &bull; {{ education.year }}</h4>
-      <h5 class="resume-item-details award-title" itemprop="description">{{ education.award }}</h5>
-      <p class="resume-item-copy" itemprop="description">
-        <ul class="resume-item-list">
-          {% for award in education.awards %}
-          <li>{{ award.award }}</li>
+    <div class="item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
+      <h3 class="name" itemprop="name">{{ education.degree }}</h3>
+      <h4 class="description" itemprop="description">{{ education.uni }} &bull; {{ education.year }}</h4>
+      {% if education.awards %}
+        <ul>
+          {% for item in education.awards %}
+            <li>{{ item }}</li>
           {% endfor %}
         </ul>
-      <p class="resume-item-copy">{{ education.summary }}</p>
+      {% endif %}
     </div>
     {% endfor %}
   </section>
