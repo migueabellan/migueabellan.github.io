@@ -1,7 +1,6 @@
 // Resume styles
 // ---------------------------------------/
 
-// page header styles
 .page-header {
   padding: 2rem 0;
   .avatar {
@@ -51,73 +50,60 @@
     text-align: center;
     font-style: italic;
   }
-
 }
 
 
-
-
-// util
-/*
-.section-header {
-  @include section_border;
-  margin-bottom: 1.5rem;
-
-  h2 {
-    @include sans;
-    font-weight: 900;
-    font-size: 1.75rem;
-    letter-spacing: -.05rem;
-    margin: 0;
-  }
-  
-}
-
-.icon-links {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  position: relative;
-  top: 4px;
-  text-align: center;
-  border-top: 2px solid #c7c7c7;
-  padding-top: .4rem;
-
-  @include media_larger_than_mobile {
-    float: right;
-    border-top: none;
-    padding-top: 0;
-  }
-
-  .icon-link-item {
-    display: inline-block;
-    margin-left: 5px;
-  }
-
-  .icon-link { display: inline-block;
-
-    &:hover .fab {
-      color: #666;
+.section {
+  margin: 30px 0 70px;
+  .header {
+    margin: 0 0 20px;
+    border-bottom: 3px solid #f0f0f0;
+    h2 {
+      margin: 0 0 20px;
+      padding: 0 0 5px;
+      font-size: 2rem;
+      font-weight: 900;
     }
   }
 
-  .fab {
-    font-size: 26px;
-    color: #999;
+  .item { 
+    margin: 0 0 35px;
+    .name {
+      margin: 0;
+      padding: 0;
+      font-size: 1.4rem;
+      font-weight: 700;
+    }
+    .description {
+      margin: 0;
+      padding: 0;
+      font-size: 1.1rem;
+      font-weight: 900;
+      font-style: italic;
+      color: #666;
+    }
+    .summary {
+      margin: 10px 0 5px;
+      padding: 0;
+      font-size: 1.3rem;
+    }
+    ul {
+      margin: 0 0 0 20px;
+      padding: 0;
+      list-style: none;
+      li {
+        font-size: 1.1rem;
+      }
+      li::before {
+        content: "• ";
+        padding: 0 5x 0 0;
+        color: #999;
+      }
+    }
   }
-}
 
-
-
-
-// resume content styles
-
-.content-section {
-  margin: 2rem 0 3rem;
-
-  .resume-item { margin-bottom: 2rem; }
-
-  .resume-item-title {
+  /*
+  .name {
     @include sans_bold;
     margin: 0 0 .75rem;
     font-size: 1.5rem;
@@ -152,7 +138,29 @@
   }
 
   .resume-item-copy { margin: .75rem 0 0; }
+  */
 }
+
+
+
+// util
+/*
+.section-header {
+  @include section_border;
+  margin-bottom: 1.5rem;
+
+  h2 {
+    @include sans;
+    font-weight: 900;
+    font-size: 1.75rem;
+    letter-spacing: -.05rem;
+    margin: 0;
+  }
+  
+}
+
+
+// resume content styles
 
 // footer styles
 

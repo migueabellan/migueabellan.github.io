@@ -1,12 +1,19 @@
-<section class="content-section">
-  <header class="section-header">
+<section class="section">
+  <header class="header">
     <h2>Experiencia</h2>
   </header>
   {% for job in site.data.experience %}
-  <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-    <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
-    <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
-    <p class="resume-item-copy">{{ job.summary }}</p>
-  </div>
+    <div class="item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+      <h3 class="name" itemprop="name">{{ job.company }}</h3>
+      <h4 class="description" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
+      <p class="summary">{{ job.summary }}</p>
+      {% if job.items %}
+        <ul>
+          {% for item in job.items %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </div>
   {% endfor %}
 </section>

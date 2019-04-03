@@ -1,14 +1,26 @@
-- company: Desarrollador Web y Backend
+- company: Programador
   position: Freelance
   duration: Mayo, 2009 &mdash; Actualidad
-  summary: Desarrollador de aplicaciones web. <ul class="resume-item-list"><li>Backend, PHP7 Symfony 3, 4</li><li>Frontend, JS Vue.js, Nuxt.js</li><li>SysAdmin, DevOps</li></ul>
+  summary: Desarrollador de aplicaciones web a medida y administrador de sistemas.
+  items:
+    - Backend, PHP7 Symfony
+    - Frontend, JS Vue.js, Nuxt.js
+    - SysAdmin Linux, DevOps
 
 - company: Formador en Programación y Robótica
   position: Centro de Profesorado y Recursos (CPR Murcia)
   duration: Octubre, 2015 &mdash; Actualidad
-  summary: Formador de profesorado no universitario de la Consejería de Educación, Juventud y Deportes de centros educativos sostenidos con fondos públicos de la Región de Murcia.<ul class="resume-item-list"><li>Recursos Educativos mediante la programación de VideoJuegos</li><li>Programación y Robótica para la integración de alumnos con NEE</li><li>Gamificación y Programación con Raspberry Pi</li><li>Programación en Python con Raspberry Pi</li><li>Programación y Robótica en Secundaria</li><li>Programación y Robótica en Primaria</li><li>Jornadas sobre Programación y Robótica Educativa</li></ul>
+  summary: Formador de profesorado no universitario de la Consejería de Educación, Juventud y Deportes de centros educativos sostenidos con fondos públicos de la Región de Murcia.
+  items:
+    - Recursos Educativos mediante la programación de VideoJuegos
+    - Programación y Robótica para la integración de alumnos con NEE
+    - Gamificación y Programación con Raspberry Pi
+    - Programación en Python con Raspberry Pi
+    - Programación y Robótica en Secundaria
+    - Programación y Robótica en Primaria
+    - Jornadas sobre Programación y Robótica Educativa
 
-- company: Formador de Arduino
-  position: Arduino Education
+- company: Formador en Arduino
+  position: Arduino Education CTC 101
   duration: Curso 2018 / 2019
   summary: Formador en Arduino Education para el programa educativo "Clases de Tecnologías Creativas (CTC)" a través del proyecto "Escuela del Pensamiento Computacional" del Ministerio de Educación y Formación Profesional INTEF.
