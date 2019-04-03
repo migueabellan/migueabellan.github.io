@@ -12,12 +12,27 @@
       </div>
       <div class="title-bar no-print">
         <h2 class="header-title" itemprop="jobTitle">{{ site.resume_title }}</h2>
-        {% include icon-links.html %}
+        <ul class="icon-links">
+          <li class="icon-link-item">
+            <a href="{{ site.resume_social_links.resume_github_url }}" class="icon-link">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li class="icon-link-item">
+            <a href="{{ site.resume_social_links.resume_twitter_url }}" class="icon-link">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li class="icon-link-item">
+            <a href="{{ site.resume_social_links.resume_linkedin_url }}" class="icon-link">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
       </div>
       <div class="executive-summary" itemprop="description">
         {{ site.resume_header_intro }}
       </div>
-      <a href="mailto:{{ site.resume_contact_email }}" class="contact-button no-print" itemprop="email">Contacta</a>
     </header>
 
     <section class="content-section">

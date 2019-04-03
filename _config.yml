@@ -2,20 +2,18 @@
 title: "Miguel Ángel Abellán"
 description: "Programador por profesión, mentor de programación por vocación."
 
+# Resume settings
+resume_name: Miguel Ángel Abellán
+resume_title: Desarrollador web
+resume_header_intro: "Programador por profesión, mentor de programación por vocación. Cofundador Iniciativa Programo Ergo Sum, Presidente CoderDojo España, #maker y más cosillas."
+resume_social:
+  github: https://github.com/migueabellan
+  twitter: http://twitter.com/migueabellan
+  linkedin: https://www.linkedin.com/in/migueabellan
+
 # Build settings
 markdown: kramdown
 sass:
   sass_dir: _sass
   style: compressed
 
-# Resume settings
-resume_name:                    "Miguel Ángel Abellán"
-resume_title:                   "Desarrollador web"
-
-resume_contact_email:           "info@migueabellan.es"
-resume_header_intro: "Programador por profesión, mentor de programación por vocación. Cofundador Iniciativa Programo Ergo Sum, Presidente CoderDojo España, #maker y más cosillas."
-
-resume_social_links:
-  resume_github_url:            "https://github.com/migueabellan"
-  resume_twitter_url:           "http://twitter.com/migueabellan"
-  resume_linkedin_url:          "https://www.linkedin.com/in/migueabellan"
