@@ -17,3 +17,9 @@ sass:
   sass_dir: _sass
   style: compressed
 
+exclude:
+  - docker-compose.yml
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
