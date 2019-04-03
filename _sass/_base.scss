@@ -29,13 +29,3 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
-
-.flex {
-  display: -webkit-flex;
-  display:         flex;
- -webkit-flex-flow: row;
-         flex-flow: row;
-  .inner {
-    flex: 0 0 50%;
-  }
-}

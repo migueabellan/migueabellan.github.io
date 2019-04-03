@@ -10,24 +10,26 @@
     border-radius: 150px;
   }
   .name {
+    margin: 0 0 20px;
     font-size: 2.5rem;
     font-weight: 900;
     text-align: center;
     line-height: 1;
   }
-  .title-bar {
+  .description {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-style: italic;
+  }
+  .social {
     border-top: 5px solid #f6f6f6;
-    border-bottom: 5px solid #f6f6f6;
-    padding: 10px;
-    .title {
-      margin: 0;
-      font-weight: 500;
-      font-size: 1.5rem;
-    }
+    padding: 20px;
     ul {
       margin: 0;
       padding: 0;
-      text-align: right;
+      text-align: center;
       list-style: none;
       li {
         display: inline-block;
@@ -42,13 +44,6 @@
         }
       }
     }
-  }
-  .description {
-    max-width: 860px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-    font-style: italic;
   }
 }
 
