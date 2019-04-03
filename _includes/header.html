@@ -1,30 +1,35 @@
 <header class="page-header" itemscope itemtype="http://schema.org/Person">
-  <img src="images/avatar.png" alt="{{ site.resume_name }}" class="avatar no-print" itemprop="image">
-  <h1 class="header-name" itemprop="name">{{ site.resume_name }}</h1>
-  <div class="header-contact-info">
-    <p>{{ site.resume_header_contact_info }}</p>
+
+  <img class="avatar" itemprop="image" src="images/avatar.png" alt="{{ site.resume_name }}" />
+  <h1 class="name" itemprop="name">{{ site.resume_name }}</h1>
+
+  <div class="flex title-bar">
+    <div class="inner">
+      <h2 class="title" itemprop="jobTitle">{{ site.resume_title }}</h2>
+    </div>
+    <div class="inner">
+      <ul>
+        <li>
+          <a target="_blank" href="{{ site.resume_social.github }}">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="{{ site.resume_social.twitter }}">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="{{ site.resume_social.linkedin }}">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
   </div>
-  <div class="title-bar no-print">
-    <h2 class="header-title" itemprop="jobTitle">{{ site.resume_title }}</h2>
-    <ul class="icon-links">
-      <li class="icon-link-item">
-        <a target="_blank" href="{{ site.resume_social.github }}" class="icon-link">
-          <i class="fab fa-github"></i>
-        </a>
-      </li>
-      <li class="icon-link-item">
-        <a target="_blank" href="{{ site.resume_social.twitter }}" class="icon-link">
-          <i class="fab fa-twitter"></i>
-        </a>
-      </li>
-      <li class="icon-link-item">
-        <a target="_blank" href="{{ site.resume_social.linkedin }}" class="icon-link">
-          <i class="fab fa-linkedin"></i>
-        </a>
-      </li>
-    </ul>
-  </div>
-  <div class="executive-summary" itemprop="description">
+
+  <div class="description" itemprop="description">
     {{ site.resume_header_intro }}
   </div>
+  
 </header>

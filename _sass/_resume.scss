@@ -1,8 +1,64 @@
 // Resume styles
 // ---------------------------------------/
 
-// util
+// page header styles
+.page-header {
+  padding: 2rem 0;
+  .avatar {
+    display: block;
+    width: 200px;
+    margin: 0 auto 20px;
+    border-radius: 150px;
+  }
+  .name {
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: center;
+    line-height: 1;
+  }
+  .title-bar {
+    border-top: 5px solid #f6f6f6;
+    border-bottom: 5px solid #f6f6f6;
+    padding: 10px;
+    .title {
+      margin: 0;
+      font-weight: 500;
+      font-size: 1.5rem;
+    }
+    ul {
+      margin: 0;
+      padding: 0;
+      text-align: right;
+      list-style: none;
+      li {
+        display: inline-block;
+        margin: 0 0 0 5px;
+        a {
+          display: block;
+          font-size: 1.5rem;
+          color: #999;
+          &:hover {
+            color: #333;
+          }
+        }
+      }
+    }
+  }
+  .description {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-style: italic;
+  }
 
+}
+
+
+
+
+// util
+/*
 .section-header {
   @include section_border;
   margin-bottom: 1.5rem;
@@ -52,63 +108,7 @@
 }
 
 
-// page header styles
 
-.page-header { padding: 1.5rem 0;
-
-  .avatar {
-    width: 95px;
-    max-width: 100%;
-    overflow: hidden;
-    @include border-radius(100px);
-    margin: 0 auto;
-    display: block;
-  }
-
-  .header-name {
-    @include sans;
-    font-size: 3rem;
-    font-weight: 900;
-    text-align: center;
-    letter-spacing: -.15rem;
-    line-height: 1;
-    margin: 1rem 0 0;
-  }
-
-  .header-contact-info {
-    @include sans;
-    text-align: center;
-  }
-  .header-contact-info p a {
-    color: inherit;
-  }
-
-  .title-bar {
-    @include section_border;
-    margin-top: 2rem;
-    padding: .4rem 0;
-    @include clearfix;
-
-    .header-title {
-      @include sans;
-      font-weight: 300;
-      font-size: 1.75rem;
-      line-height: 2rem;
-      letter-spacing: -.05rem;
-      text-align: center;
-      margin: 0 0 .5rem;
-
-      @include media_larger_than_mobile {
-        float: left;
-        margin: 0;
-      }
-    }
-  }
-
-  .executive-summary {
-    @include media_larger_than_mobile { font-size: 1.125rem; }
-  }
-}
 
 // resume content styles
 
@@ -174,41 +174,5 @@
   }
 }
 
-.print-only { display: none !important }
 
-@media print {
-  .no-print { display: none !important }
-  .print-only { display: block !important }
-  body { font-size: 12px; line-height: 1rem; }
-  .page-header { padding: 1rem 0 .2rem;
-    .header-name {
-      @include sans_bold;
-      font-size: 2rem;
-      margin: 0 0 .2rem;
-    }
-  }
-  .section-header {
-    @include section_border_thin;
-    margin-bottom: 1rem;
-    h2 { font-size: 1.2rem; line-height: 1.5rem; }
-  }
-  .content-section {
-    margin: 0 0 1rem;
-    .resume-item { margin-bottom: 1rem; }
-    .resume-item-title {
-      font-size: 16px;
-      line-height: .7em;
-    }
-
-    .resume-item-details {
-      font-size: 12px;
-      margin: 0 0 .75rem;
-      line-height: .7em;
-      font-style:italic;
-
-      &.award-title {
-        font-size: 11px;
-      }
-    }
-  }
-}
+*/
