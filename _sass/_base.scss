@@ -29,3 +29,19 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
+
+footer {
+  margin: 0 0 20px;
+  text-align: center;
+  font-size: 14px;
+  span {
+    color: #dc3545;
+  }
+  a {
+    color: #888;
+    &:hover {
+      color: #333;
+      text-decoration: none;
+    }
+  }
+}
