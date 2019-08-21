@@ -1,11 +1,12 @@
 language: ruby
 
+sudo: false
+cache: bundler
+
 rvm:
-  - 2.5.0
+  - 2.6.3
 
-script: 
-  # - bundle exec jekyll build
-  #- bundle exec htmlproofer ./_site --check-html
-
-install: 
-  # - bundle install
+install:
+  - gem install jekyll html-proofer
+script:
+  - jekyll build && htmlproofer ./_site
