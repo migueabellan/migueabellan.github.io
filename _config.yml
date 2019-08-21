@@ -19,7 +19,6 @@ sass:
 
 exclude:
   - docker-compose.yml
-  - Gemfile
   - Gemfile.lock
   - LICENSE
   - README.md
