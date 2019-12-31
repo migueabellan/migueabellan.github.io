@@ -3,8 +3,8 @@
   duration: 2015 &mdash; Actualidad
   description: Iniciativa sin ánimo de lucro que pretende acercar la programación de ordenadores, electrónica, robótica y nuevas tecnologías a todas las edades.
   items:
-    - <a href="https://www.programoergosum.es" target="_blank">Asociación</a>
-    - <a href="https://www.programoergosum.com" target="_blank">Programo Ergo Sum</a>
+    - <a href="https://www.programoergosum.es" target="_blank">Programo Ergo Sum</a>
+    # - <a href="https://www.programoergosum.com" target="_blank">Programo Ergo Sum</a>
     - <a href="https://www.aprendeprogramando.es" target="_blank">Aprende Programando</a>
 
 - project: CoderDojo España
