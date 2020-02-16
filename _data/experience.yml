@@ -5,7 +5,7 @@
   items:
     - Backend, PHP7 Symfony
     - Frontend, JS Vue.js, Nuxt.js
-    - SysAdmin Linux, DevOps
+    - SysAdmin Linux, DevOps, Docker
 
 - company: Formador en Programación y Robótica
   position: Centro de Profesorado y Recursos (CPR Murcia)
