@@ -12,12 +12,18 @@
   duration: Octubre, 2015 &mdash; Actualidad
   summary: Formador y profesor de programación y robótica educativa para docentes.
   items:
+    # - <a href="https://www.programoergosum.es/formaciones/iniciacion-a-la-robotica-en-educacion-primaria/" target="_blank">Robótica Educativa en Educación Infantil y Primaria</a>
     - Robótica Educativa en Educación Infantil y Primaria
+    # - <a href="https://www.programoergosum.es/formaciones/iniciacion-a-la-robotica-en-educacion-secundaria/" target="_blank">Robótica Educativa en Educación Secundaria</a>
     - Robótica Educativa en Educación Secundaria
-    - Domótica e Internet de las cosas con Raspberry Pi
+    # - <a href="https://www.programoergosum.es/formaciones/programacion-en-python-con-raspberry-pi/" target="_blank">Domótica e Internet de las cosas con Raspberry Pi</a>
+    - <a href="https://wikitic.github.io/programacion-en-python-con-raspberry-pi" target="_blank">Domótica e Internet de las cosas con Raspberry Pi</a>
+    # - <a href="https://www.programoergosum.es/formaciones/robotica-para-la-integracion-de-alumnos-con-nee/" target="_blank">Robótica para la inclusión de alumnos con necesidades especiales</a>
     - Robótica para la inclusión de alumnos con necesidades especiales
+    # - <a href="https://www.programoergosum.es/formaciones/recursos-educativos-mediante-la-programacion/" target="_blank">Recursos educativos a través de la programación informática</a>
     - Recursos educativos a través de la programación informática
-    - Jornadas sobre Programación y Robótica Educativa
+    # - <a href="https://www.programoergosum.es/formaciones/jornadas-sobre-programacion-y-robotica-en-murcia/" target="_blank">Jornadas sobre Programación y Robótica Educativa</a>
+    - <a href="https://wikitic.github.io/iv-jornadas-robotica-educativa-2019-murcia/#/" target="_blank">Jornadas sobre Programación y Robótica Educativa</a>
 
 - company: Formador en Arduino
   position: Arduino Education CTC 101
