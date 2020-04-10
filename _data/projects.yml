@@ -1,22 +1,20 @@
 - project: Programo Ergo Sum
-  role: Cofundador
+  role: Cofundador de la Asociación
   duration: 2015 &mdash; Actualidad
   description: Iniciativa sin ánimo de lucro que pretende acercar la programación de ordenadores, electrónica, robótica y nuevas tecnologías a todas las edades.
   items:
     - <a href="https://www.programoergosum.es" target="_blank">Programo Ergo Sum</a>
-    # - <a href="https://www.programoergosum.com" target="_blank">Programo Ergo Sum</a>
+
+- project: Aprende Programando
+  role: Creador de la plataforma
+  duration: 2015 &mdash; Actualidad
+  description: Plataforma de aprendizaje STEM a través de la programación en los lenguajes de programación Blockly, Python y JavaScript en distintos niveles de ESO y Bachiller.
+  items:
     - <a href="https://www.aprendeprogramando.es" target="_blank">Aprende Programando</a>
 
 - project: CoderDojo España
-  role: Presidente
+  role: Presidente de la Asociación
   duration: 2015 &mdash; Actualidad
   description: Agrupación informal de dojos o clubes gratuitos de programación activos en territorio español.
   items:
     - <a href="https://www.coderdojo.es" target="_blank">CoderDojo España</a>
-
-- project: El Cable Amarillo
-  role: Elaborador del material
-  duration: 2016 &mdash; Actualidad
-  description: Elaborador del material del programa educativo "El Cable Amarillo" para fomentar el uso de la programación y robótica en los centros educativos.
-  items:
-    - <a href="https://www.elcableamarillo.cc" target="_blank">El Cable Amarillo</a>
