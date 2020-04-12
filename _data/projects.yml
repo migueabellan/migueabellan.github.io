@@ -18,3 +18,10 @@
   description: Agrupación informal de dojos o clubes gratuitos de programación activos en territorio español.
   items:
     - <a href="https://www.coderdojo.es" target="_blank">CoderDojo España</a>
+
+- project: El Cable Amarillo
+  role: Elaborador del material
+  duration: 2016 &mdash; abril, 2020
+  description: Elaborador del material para docentes del proyecto educativo para fomentar el uso de la Programación y Robótica en los centros educativos.
+  items:
+    - <a href="https://github.com/elcableamarillo" target="_blank">El Cable Amarillo</a>
