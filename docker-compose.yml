@@ -4,7 +4,7 @@ services:
   jekyll:
     image: jekyll/jekyll:latest
     container_name: migueabellan.github.io
-    command: jekyll serve --watch --incremental
+    command: jekyll serve --safe --watch --force_polling --verbose
     ports:
       - 4000:4000
     volumes:
