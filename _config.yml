@@ -1,11 +1,11 @@
 # Site settings
 title: "Miguel Ángel Abellán"
-description: "Programador por profesión, mentor de programación por vocación."
+description: "Programador freelance. Desarrollador Web y Apps"
 
 # Resume settings
 resume_name: Miguel Ángel Abellán
 resume_title: Desarrollador web
-resume_header_intro: "Programador por profesión, mentor de programación por vocación. Cofundador Iniciativa Programo Ergo Sum, Presidente CoderDojo España, #maker y más cosillas."
+resume_header_intro: "Desarrollador de aplicaciones a medida [freelance]. Mentor de programación, Cofundador Iniciativa Programo Ergo Sum, Presidente CoderDojo España, #maker y más cosillas."
 resume_social:
   github: https://github.com/migueabellan
   twitter: http://twitter.com/migueabellan
