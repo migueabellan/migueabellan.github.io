@@ -3,7 +3,8 @@
 @import "variables";
 @import "reset";
 
-@import "animations";
-@import "components/forkme";
+@import "utils/animations";
+@import "utils/functions";
 
+@import "_colors";
 @import "main";

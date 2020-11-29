@@ -1,10 +1,35 @@
-$body-bg:         #fff !default;
-$body-color:      #2d2d2d !default;
-$grey-color:      #999 !default;
-$link-color:      #333 !default;
+// grid
+$container: 1024px;
+$gutters: 10px;
 
-$color-red: #b62a38;
+// colors
+$white:     #ffffff !default;
+$gray-100:  #f8f9fa !default;
+$gray-200:  #e9ecef !default;
+$gray-300:  #dee2e6 !default;
+$gray-400:  #ced4da !default;
+$gray-500:  #adb5bd !default;
+$gray-600:  #6c757d !default;
+$gray-700:  #495057 !default;
+$gray-800:  #343a40 !default;
+$gray-900:  #212529 !default;
+$black:     #111111 !default;
+$red:       #b62a38 !default;
 
+$themes: (
+  default: (
+    background: $white,
+    color: $gray-900,
+    link: $gray-600
+  ),
+  dark: (
+    background: $gray-800,
+    color: $gray-300,
+    link: $gray-500
+  )
+);
+
+// fonts
 $font-family: 'Noto Serif JP', sans-serif;
 $font-weight: normal;
 
@@ -15,6 +40,3 @@ $font-size-title: 2.2rem !default;
 $font-size-subtitle: 1.5rem !default;
 $font-size-text: $font-size-base;
 $font-size-small: 0.9rem !default;
-
-$container: 1024px;
-$gutters: 10px;

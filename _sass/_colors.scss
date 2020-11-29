@@ -1,0 +1,17 @@
+html {
+  background-color: theme-color('default', 'background');
+  color: theme-color('default', 'color');
+  li, a {
+    color: theme-color('default', 'link');
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: theme-color('dark', 'background');
+    color: theme-color('dark', 'color');
+    li, a {
+      color: theme-color('dark', 'link');
+    }
+  }
+}
