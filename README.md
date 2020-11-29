@@ -4,7 +4,9 @@
 
 [![Build Status](https://travis-ci.org/migueabellan/migueabellan.github.io.svg?branch=master)](https://travis-ci.org/migueabellan/migueabellan.github.io)
 
-Donwload using git
+![](modes.png)
+
+### Donwload using git
 
 ```sh
 $ git clone git@github.com:migueabellan/migueabellan.github.io.git

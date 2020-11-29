@@ -1,0 +1,8 @@
+@mixin font-size($size, $weight: 400) {
+  font-size: $size;
+  line-height: $size + 0.5rem;
+  font-weight: $weight;
+  @media screen and (max-width: 768px){
+    font-size: $size - 0.1rem;
+  }
+}
