@@ -1,15 +1,9 @@
 ---
 ---
 @import "variables";
+@import "reset";
 
 @import "animations";
-
-// "Reset" styles
-@import "normalize";
-
-// Generic site
-@import "base";
-@import "resume";
-
-// Components
 @import "components/forkme";
+
+@import "main";

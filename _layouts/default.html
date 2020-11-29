@@ -5,8 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <title>Miguel Ángel Abellán</title>
+  <meta name="description" content="Programador freelance. Desarrollador Web y Apps">
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="icon" type="image/x-icon" href="/favicon.png" />
@@ -17,11 +17,36 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <div class="wrapper">
+  <div class="container">
 
     {% include components/forkme.html %}
 
-    {% include header.html %}
+    <header class="header" itemscope itemtype="http://schema.org/Person">
+      <img class="header__avatar" itemprop="image" src="images/avatar.png" alt="{{ site.resume_name }}" />
+      <h1 class="header__name" itemprop="name">Miguel Ángel Abellán</h1>
+      <div class="header__description" itemprop="description">
+        Desarrollador de aplicaciones informáticas. Mentor de programación y robótica, Cofundador Iniciativa Programo Ergo Sum, Presidente CoderDojo España, #maker y más cosillas.
+      </div>
+      <div class="header__social">
+        <ul>
+          <li>
+            <a target="_blank" href="https://github.com/migueabellan">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="http://twitter.com/migueabellan">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.linkedin.com/in/migueabellan">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
 
     {% include experience.html %}
 
@@ -31,8 +56,9 @@
     
     {% include awards.html %}
 
-    {% include components/footer.html %}
-
+    <footer>
+      Made with <span class="heart">&hearts;</span> by <a target="_blank" href="https://github.com/migueabellan">@migueabellan</a>
+    </footer>
   </div>
 </body>
 </html>

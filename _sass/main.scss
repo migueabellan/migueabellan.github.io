@@ -1,0 +1,105 @@
+html {
+  background: $body-bg;
+  font-size: $font-size-root;
+}
+body {
+  font-family: $font-family;
+  font-weight: $font-weight;
+  font-size: $font-size-base;
+  color: $body-color;
+  a {
+    color: $link-color;
+    text-decoration: none;
+    &:hover {
+      color: $link-color;
+      text-decoration: underline;
+    }
+  }
+}
+
+.container {
+  max-width: $container;
+  margin: 0 auto;
+  padding: $gutters;
+}
+
+.header {
+  margin: 2rem 0 0;
+  text-align: center;
+  &__avatar {
+    display: block;
+    width: 200px;
+    margin: 0 auto 2rem;
+    border-radius: 150px;
+  }
+  &__name {
+    margin: 0 0 20px;
+    font-size: $font-size-supertitle;
+    font-weight: 900;
+  }
+  &__description {
+    margin: 0 0 20px;
+    font-size: $font-size-subtitle;
+    font-style: italic;
+  }
+  &__social {
+    border-top: 5px solid #f6f6f6;
+    padding: 20px;
+    li {
+      display: inline-block;
+      margin: 5px;
+      a {
+        display: block;
+        font-size: $font-size-subtitle;
+        color: $grey-color;
+      }
+    }
+  }
+}
+
+.section {
+  margin: 30px 0 100px;
+  &__header {
+    margin: 0 0 20px;
+    padding: 0 0 20px;
+    font-size: $font-size-title;
+    font-weight: 900;
+    border-bottom: 3px solid #f0f0f0;
+  }
+  &__item { 
+    margin: 0 0 35px;
+  }
+  &__name {
+    margin: 0;
+    font-size: $font-size-subtitle;
+    font-weight: 700;
+  }
+  &__description {
+    margin: 0 0 1rem;
+    font-size: $font-size-subtitle;
+    font-weight: 500;
+    font-style: italic;
+    color: $grey-color;
+  }
+  &__summary {
+    li {
+      margin: 0 0 5px 20px;
+      display: block;
+      &::before {
+        content: "• ";
+        padding: 0 5px 10px 0;
+        color: $grey-color;
+      }
+    }
+  }
+}
+
+
+footer {
+  margin: 2rem 0;
+  text-align: center;
+  font-size: $font-size-small;
+  .heart {
+    color: $color-red;
+  }
+}

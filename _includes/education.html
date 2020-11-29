@@ -1,18 +1,18 @@
 <section class="section">
-    <header class="header">
-      <h2>Educación</h2>
-    </header>
-    {% for education in site.data.education %}
-    <div class="item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
-      <h3 class="name" itemprop="name">{{ education.degree }}</h3>
-      <h4 class="description" itemprop="description">{{ education.uni }} &bull; {{ education.year }}</h4>
+  <h2 class="section__header">Educación</h2>
+  {% for education in site.data.education %}
+    <div class="section__item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
+      <h3 class="section__name" itemprop="name">{{ education.degree }}</h3>
+      <h4 class="section__description" itemprop="description">{{ education.uni }} &bull; {{ education.year }}</h4>
       {% if education.awards %}
-        <ul>
-          {% for item in education.awards %}
-            <li>{{ item }}</li>
-          {% endfor %}
-        </ul>
+        <div class="section__summary">
+          <ul>
+            {% for item in education.awards %}
+              <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+        </div>
       {% endif %}
     </div>
-    {% endfor %}
-  </section>
+  {% endfor %}
+</section>
