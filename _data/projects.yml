@@ -8,7 +8,7 @@
 - project: Aprende Programando
   role: Creador de la plataforma
   duration: 2015 &mdash; Actualidad
-  description: Plataforma de aprendizaje STEM a través de la programación en los lenguajes de programación Blockly, Python y JavaScript en distintos niveles de ESO y Bachiller.
+  description: Plataforma de aprendizaje guiado y retos de programación en los lenguajes de Blockly, Python y JavaScript en distintos niveles de ESO y Bachiller.
   items:
     - <a href="https://www.aprendeprogramando.es" target="_blank">Aprende Programando</a>
 
