@@ -3,14 +3,7 @@
   duration: 2015 &mdash; Actualidad
   description: Iniciativa sin ánimo de lucro que pretende acercar la programación de ordenadores, electrónica, robótica y nuevas tecnologías a todas las edades.
   items:
-    - <a href="https://www.programoergosum.es" target="_blank">Programo Ergo Sum</a>
-
-- project: Aprende Programando
-  role: Creador de la plataforma
-  duration: 2015 &mdash; Actualidad
-  description: Plataforma de aprendizaje guiado y retos de programación en los lenguajes de Blockly, Python y JavaScript en distintos niveles de ESO y Bachiller.
-  items:
-    - <a href="https://www.aprendeprogramando.es" target="_blank">Aprende Programando</a>
+    - <a href="https://www.programoergosum.com" target="_blank">Programo Ergo Sum</a>
 
 - project: CoderDojo España
   role: Presidente de la Asociación
